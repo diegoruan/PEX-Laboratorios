@@ -1,0 +1,22 @@
+.footer-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  text-align: center;
+  height: 60px;
+  background: var(--cor-primaria);
+}
+
+.text-decoration-custom {
+    color: var(--texto-primaria);
+    text-decoration: none;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .footer-custom {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}

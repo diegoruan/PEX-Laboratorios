@@ -1,0 +1,22 @@
+{
+  "nome": "Laboratório Bioclínico Teste",
+  "logo": "/images/logo_g.png",
+  "slogan": "Cuidando da sua saúde com dedicação",
+  "cores": {
+    "primaria": "#0d6efd",
+    "secundaria": "#6c757d",
+    "textoPrimaria": "#000000",
+    "textoSecundaria": "#ffffff"
+  },
+  "unidade": {
+    "endereco": "Rua das Flores, 123 - Centro",
+    "telefone": "(11) 99999-9999"
+  },
+  "sobre": "Somos um laboratório clínico que preza pela qualidade e confiança nos resultados. Nossa equipe está pronta para oferecer atendimento humanizado e preciso.",
+  "instrucoes": [
+    "Jejum de 12 horas para exames de glicose e colesterol.",
+    "Evite esforço físico antes da coleta.",
+    "Para exames de urina, utilize frasco limpo e seco.",
+    "Informe o uso de medicamentos recentes."
+  ]
+}

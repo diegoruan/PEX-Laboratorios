@@ -1,0 +1,108 @@
+.navbar {
+    height: 8.125rem;
+    min-height: 8.125rem;
+    background: var(--cor-primaria);
+    padding: 0;
+}
+
+.navbar .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+}
+
+.navbar-brand img {
+    border: 1px solid var(--texto-primaria);
+    border-radius: 8px;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.05);
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-link {
+    color: var(--texto-primaria) !important;
+    font-size: 0.95rem;
+    padding: 0.8rem 1.5rem !important;
+    position: relative;
+    border-radius: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-link:hover {
+    color: var(--texto-secundaria) !important;
+}
+
+.nav-link-highlight {
+    background-color: var(--cor-secundaria) !important;
+    color: var(--texto-secundaria) !important;
+    border-radius: 16px;
+    margin-left: 1rem;
+    padding: 0.8rem 1.8rem !important;
+    text-decoration: none;
+}
+
+.nav-link-highlight:hover {
+    color: var(--texto-primaria) !important;
+}
+
+.menu-aparece {
+    display: none;
+}
+
+/* Mobile */
+@media (max-width: 991.98px) {
+    .menu-aparece {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .menu-aparece h6 {
+        margin: 0;
+        padding: 0;
+        color: var(--texto-primaria);
+        font-weight: 500;
+    }
+
+    .navbar {
+        height: auto;
+        min-height: 130px;
+        padding: 0.5rem 0;
+    }
+
+    .fa-bars {
+        color: var(--texto-primaria);
+        font-size: 2rem;
+        
+    }
+
+    .navbar-collapse {
+        background: var(--texto-secundaria);
+        margin-top: 1rem;
+        border-radius: 8px;
+        padding: 1rem;
+    }
+
+    .nav-link {
+        padding: 0.8rem 1rem !important;
+        text-align: center;
+    }
+
+    .nav-link-highlight {
+        margin-left: 0;
+        background-color: var(--cor-secundaria) !important;
+    }
+
+    .ultimo-item {
+        margin-top: 0.5rem !important;
+    }
+}

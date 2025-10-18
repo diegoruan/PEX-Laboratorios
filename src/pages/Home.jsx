@@ -59,10 +59,10 @@ export default function Home() {
           <div className="p-4">
             <div className="d-flex align-items-center mb-2">
               <i className="fa-solid fa-location-dot icon-home"></i>
-              <h5 className="fw-semibold title-custom">Unidades</h5>
+              <h5 className="fw-semibold title-custom">{config.home.unidade}</h5>
             </div>     
             <p className="small text-custom">
-              Informações sobre nossas unidades de atendimento e horário de funcionamento.
+              {config.home.descricaoUnidade}
             </p>
             <a href="/unidades" className="small text-decoration-custom">
               Saiba Mais
@@ -74,10 +74,10 @@ export default function Home() {
           <div className="p-4">
             <div className="d-flex align-items-center mb-2">
               <i className="fa-solid fa-vial icon-home"></i>
-              <h5 className="fw-semibold title-custom">Instruções de coleta</h5>
+              <h5 className="fw-semibold title-custom">{config.home.instrucoes}</h5>
             </div>
             <p className="small text-custom">
-              Alguns exames exigem preparo especial: confira antes de realizar a coleta.
+              {config.home.descricaoInstrucoes}
             </p>
             <a href="/instrucoes" className="small text-decoration-custom">
               Saiba Mais
@@ -89,10 +89,10 @@ export default function Home() {
           <div className="p-4">
             <div className="d-flex align-items-center mb-2">
               <i className="fa-solid fa-comments icon-home"></i>
-              <h5 className="fw-semibold title-custom">Fale conosco</h5>
+              <h5 className="fw-semibold title-custom">{config.home.faleConosco}</h5>
             </div>
             <p className="small text-custom">
-              Entre em contato e marque seus exames de forma simples e rápida.
+              {config.home.descricaoFaleConosco}
             </p>
             <a href="/contato" className="small text-decoration-custom">
               Iniciar Conversa

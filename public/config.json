@@ -12,6 +12,11 @@
     "endereco": "Rua das Flores, 123 - Centro",
     "telefone": "(11) 99999-9999"
   },
+  "imagens": [
+    "/images/carrossel/carrossel1.jpg",
+    "/images/carrossel/carrossel2.jpg",
+    "/images/carrossel/carrossel3.jpg"
+  ],
   "sobre": "Somos um laboratório clínico que preza pela qualidade e confiança nos resultados. Nossa equipe está pronta para oferecer atendimento humanizado e preciso.",
   "instrucoes": [
     "Jejum de 12 horas para exames de glicose e colesterol.",

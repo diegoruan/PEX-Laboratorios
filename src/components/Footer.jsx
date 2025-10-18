@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="footer-custom py-3 mt-5 border-top">
+    <footer className="footer-custom py-3 mt-4 border-top">
       <Link to="/politica-de-privacidade" className="text-decoration-custom small">
         Política de Privacidade
       </Link>

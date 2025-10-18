@@ -3,7 +3,7 @@
   "logo": "/images/logo_g.png",
   "slogan": "Cuidando da sua saúde com dedicação",
   "cores": {
-    "primaria": "#0d6efd",
+    "primaria": "#2f91ed",
     "secundaria": "#6c757d",
     "textoPrimaria": "#000000",
     "textoSecundaria": "#ffffff"
@@ -40,7 +40,7 @@
     },
     {
       "titulo": "Espermograma",
-      "descricao": "1 - Abstinência sexual (sem ejaculação) de 2 a 5 dias.\n2 - Com sabonete neutro lavar a glande (cabeça) do pênis e enxaguar bem em água corrente.\n3 - O exame é realizado por agendamento, podendo ser feito presencialmente ou por WhatsApp, (47) 99949-597. Consultar horários disponíveis.\n4 - É importante responder todo o questionário fornecido pelo laboratório no dia da coleta e seguir as orientações fornecidas para a realização de uma amostra adequada.\n5 - Em casos de Dengue, Zika, Covid, Influenza entre outros, relatar a recepção no dia do cadastro.\n6 - Aguardar 90 dias após uso de antibióticos, anti-inflamatórios e esteroides, especificar o uso no dia da coleta.\n\n<b>NÃO ESQUEÇA DE TRAZER:</b>\n- Documento de identidade com foto;\n- Nome dos medicamentos em uso;"
+      "descricao": "1 - Abstinência sexual (sem ejaculação) de 2 a 5 dias.\n2 - Com sabonete neutro lavar a glande (cabeça) do pênis e enxaguar bem em água corrente.\n3 - O exame é realizado por agendamento, podendo ser feito presencialmente ou por WhatsApp. Consultar horários disponíveis.\n4 - É importante responder todo o questionário fornecido pelo laboratório no dia da coleta e seguir as orientações fornecidas para a realização de uma amostra adequada.\n5 - Em casos de Dengue, Zika, Covid, Influenza entre outros, relatar a recepção no dia do cadastro.\n6 - Aguardar 90 dias após uso de antibióticos, anti-inflamatórios e esteroides, especificar o uso no dia da coleta.\n\n<b>NÃO ESQUEÇA DE TRAZER:</b>\n- Documento de identidade com foto;\n- Nome dos medicamentos em uso;"
     },
     {
       "titulo": "Exame de Urina",
@@ -50,6 +50,10 @@
   "sobre": {
     "titulo": "Quem Somos",
     "conteudo": "<h3>Somos referência em análises clínicas de qualidade e confiança!</h3><p>O Laboratório Bioclínico Teste atua com excelência na área de análises clínicas, oferecendo atendimento humanizado, resultados rápidos e tecnologia de ponta para garantir precisão e segurança em cada exame realizado.</p><h3>Segurança e Confidencialidade!</h3><p>Contamos com processos automatizados e uma equipe de profissionais altamente qualificados, comprometidos com a saúde e bem-estar de nossos clientes. Nosso laboratório segue rigorosos programas de controle de qualidade interno e externo, assegurando resultados confiáveis, dentro dos padrões exigidos pela Sociedade Brasileira de Patologia Clínica (SBPC/ML).</p><p>Por meio de sistemas integrados e alinhados às diretrizes da LGPD, garantimos que os resultados sejam disponibilizados de forma ágil, segura e sigilosa.</p><h3>Atendimento com Comodidade!</h3><p>Além de nossa unidade central estrategicamente localizada, o Laboratório Bioclínico Teste oferece opções diferenciadas de atendimento, incluindo coletas domiciliares e empresariais, proporcionando maior conforto e praticidade a nossos clientes.</p><h3>Inovação e Compromisso!</h3><p>Estamos em constante atualização tecnológica e científica, sempre em busca de melhorias que tornem nossos serviços ainda mais eficazes e acessíveis.</p>"
+  },
+  "politica": {
+    "titulo": "Política de Privacidade",
+    "conteudo": "<h3>SEUS DADOS, NOSSO COMPROMISSO</h3><p>O Laboratório Bioclínico Teste tem como missão oferecer serviços de análises clínicas com qualidade, agilidade e confiabilidade, sempre priorizando uma experiência diferenciada para nossos clientes.</p><p>Durante o processo de atendimento e realização dos exames, é necessária a coleta e o tratamento de alguns dados pessoais. Essas informações são utilizadas exclusivamente para:</p><ul><li>Efetuar seu cadastro de identificação;</li><li>Executar exames específicos de forma precisa;</li><li>Atender às exigências legais e regulatórias do Ministério da Saúde.</li></ul><h3>Segurança e LGPD</h3><p>Todos os dados fornecidos são tratados com absoluta confidencialidade, em conformidade com a Lei Geral de Proteção de Dados Pessoais (LGPD – Lei nº 13.709/2018). Isso significa que seguimos princípios de transparência, finalidade, necessidade e segurança, garantindo que seus dados sejam utilizados apenas para a prestação adequada de nossos serviços e nunca para fins indevidos.</p><p>Além disso, contamos com sistemas protegidos por protocolos de segurança e monitoramento constantes, assegurando que seus resultados e informações pessoais cheguem até você de forma rápida, sigilosa e protegida.</p><p>Em nossa Política de Privacidade, você encontrará informações detalhadas sobre como seus dados são coletados, tratados, armazenados e protegidos.</p><p>Se ainda restarem dúvidas, disponibilizamos o e-mail: dadospessoais@bioclinicoteste.com.br, onde nosso Encarregado de Dados estará à disposição para garantir a proteção dos seus direitos e esclarecer qualquer questão relacionada à privacidade.</p>"
   },
   "unidade": {
     "endereco": "Rua das Flores, 123 - Centro",

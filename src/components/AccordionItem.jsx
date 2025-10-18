@@ -16,7 +16,7 @@ export default function AccordionItem({ id, title, content }) {
         className="accordion-collapse collapse"
         data-bs-parent="#accordionExample"
       >
-        <div className="accordion-body">{content}</div>
+        <div className="accordion-body" dangerouslySetInnerHTML={{ __html: content }} />
       </div>
     </div>
   );

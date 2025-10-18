@@ -1,0 +1,20 @@
+.titulo-custom {
+  color: var(--texto-primaria);
+  margin-bottom: 2rem;
+}
+
+.accordion-item {
+  margin-bottom: 1.5rem;
+}
+
+.accordion-button {
+  background-color: var(--cor-primaria) !important;
+  color: var(--texto-primaria) !important;
+  font-weight: 500;
+}
+
+.accordion-body {
+  background-color: white;
+  color: var(--texto-primaria);
+  line-height: 1.6;
+}

@@ -21,15 +21,35 @@
     "faleConosco": "Fale conosco",
     "descricaoFaleConosco": "Entre em contato e marque seus exames de forma simples e rápida."
   },
+  "instrucoes": [
+    {
+      "titulo": "Dosagem de LIPÍDEOS (Triglicerídeos, Colesterol, HDL, LDL e outros)",
+      "descricao": "1 - JEJUM de no mínimo 12 horas e no máximo 14 horas.\n2 - NÃO cometer abusos alimentares e nem ingerir bebidas alcoólicas nas 72 horas que antecedem a coleta.\n3 - MANTER dieta habitual por 2 semanas antes de realizar o exame.\n4 - Não fumar e ingerir café no dia da coleta.\n5 - Não realizar atividade física nas 24 horas que antecedem a coleta.\n\n<b>NÃO ESQUEÇA DE TRAZER:</b>\n- Documento de identidade com foto;\n- Carteira de convênio;\n- Nome dos medicamentos em uso;"
+    },
+    {
+      "titulo": "PSA (Antígeno Prostático Específico)",
+      "descricao": "1 - JEJUM não obrigatório.\n2 - Aguardar 48 horas (2 dias) após ejaculação (relação sexual ou masturbação).\n3 - Aguardar 48 horas após exercícios físicos (ex: cavalgada, bicicleta, musculação).\n4 - Aguardar 4 dias após uso de supositório, sondagem uretral ou toque retal.\n5 - Aguardar 7 dias após ultra-som transretal.\n6 - Aguardar 15 dias após colonoscopia.\n7 - Aguardar 30 dias após biópsia de próstata.\n\n<b>NÃO ESQUEÇA DE TRAZER:</b>\n- Documento de identidade com foto;\n- Carteira de convênio;\n- Nome dos medicamentos em uso;"
+    },
+    {
+      "titulo": "Urina de 24 horas",
+      "descricao": "1 - Esvaziar toda a bexiga, anotando o dia e a hora desta micção.\n2 - Coletar TODA urina a partir deste momento, até o dia seguinte, sem perder nenhum material, conservando sempre em geladeira até o envio ao laboratório.\n\nIMPORTANTE:\n- A EXATIDÃO do resultado depende da entrega de TODA amostra de urina de 24 horas ao laboratório.\n- Evite a coleta em dias nos quais haja mudanças nos seus hábitos (dieta, exercícios físicos, etc).\n- Não ingerir bebidas alcóolicas durante o período de coleta.\n\nEXEMPLO:\nÀs 8 horas da manhã esvaziar a bexiga. A partir daí coletar o material no frasco fornecido pelo laboratório, até o dia seguinte às 8 horas da manhã, coletando inclusive esta última urina. Encaminhar a amostra imediatamente ao laboratório.\n\n<b>NÃO ESQUEÇA DE TRAZER:</b>\n- Documento de identidade com foto;\n- Carteira de convênio;\n- Nome dos medicamentos em uso;"
+    },
+    {
+      "titulo": "Secreção Vaginal",
+      "descricao": "1 - Caso tome banho, NÃO realizar higiene interna, se possível não urinar.\n2 - NÃO manter relações sexuais nas 48 horas que antecedem a coleta.\n3 - Aguardar 3 dias após o término da menstruação, bem como tratamento com cremes ou óvulos vaginais.\n4 - NÃO coletar após consulta com médico (espéculo), ultrassom transvaginal.\n5 - Caso no seu pedido médico contenha o exame de micoplasma/ureaplasma e/ou exame de chlamydia, permanecer com a bexiga cheia (4 horas) antes da coleta.\n\n<b>NÃO ESQUEÇA DE TRAZER:</b>\n- Documento de identidade com foto;\n- Carteira de convênio;\n- Nome dos medicamentos em uso;"
+    },
+    {
+      "titulo": "Espermograma",
+      "descricao": "1 - Abstinência sexual (sem ejaculação) de 2 a 5 dias.\n2 - Com sabonete neutro lavar a glande (cabeça) do pênis e enxaguar bem em água corrente.\n3 - O exame é realizado por agendamento, podendo ser feito presencialmente ou por WhatsApp, (47) 99949-597. Consultar horários disponíveis.\n4 - É importante responder todo o questionário fornecido pelo laboratório no dia da coleta e seguir as orientações fornecidas para a realização de uma amostra adequada.\n5 - Em casos de Dengue, Zika, Covid, Influenza entre outros, relatar a recepção no dia do cadastro.\n6 - Aguardar 90 dias após uso de antibióticos, anti-inflamatórios e esteroides, especificar o uso no dia da coleta.\n\n<b>NÃO ESQUEÇA DE TRAZER:</b>\n- Documento de identidade com foto;\n- Nome dos medicamentos em uso;"
+    },
+    {
+      "titulo": "Exame de Urina",
+      "descricao": "1 - Coletar PREFERENCIALMENTE a primeira urina da manhã, ou com pelo menos 2 horas da última vez que urinou.\n2 - Realizar higienização dos genitais, lavando com água e sabão e enxugando com toalha de papel ou gaze.\n3 - Desprezar no vaso sanitário o primeiro jato urinário (começo da urina).\n4 - Sem interromper a micção, urinar diretamente no frasco de coleta até completar meio frasco.\n5 - Desprezar o restante da urina no vaso sanitário. Fechar o frasco de coleta.\n6 - Não ter relações sexuais nas 24 horas que antecedem a coleta.\n7 - Coleta Feminina: Excetuando-se os casos de urgência, a urina deve ser coletada de 3-5 dias após o término do sangramento menstrual.\n8 - Entregar a urina imediatamente ao laboratório.\n\nObs: Para o exame de cultura de urina, caso tenha ingerido antibiótico recomenda-se aguardar 7 dias após o término do mesmo.\nEm alguns casos o médico pode solicitar a coleta do primeiro jato urinário, em caso de dúvida entre em contato conosco.\n\n<b>NÃO ESQUEÇA DE TRAZER:</b>\n- Documento de identidade com foto;\n- Carteira de convênio;\n- Nome dos medicamentos em uso;"
+    }
+  ],
   "unidade": {
     "endereco": "Rua das Flores, 123 - Centro",
     "telefone": "(11) 99999-9999"
   },
-  "sobre": "Somos um laboratório clínico que preza pela qualidade e confiança nos resultados. Nossa equipe está pronta para oferecer atendimento humanizado e preciso.",
-  "instrucoes": [
-    "Jejum de 12 horas para exames de glicose e colesterol.",
-    "Evite esforço físico antes da coleta.",
-    "Para exames de urina, utilize frasco limpo e seco.",
-    "Informe o uso de medicamentos recentes."
-  ]
+  "sobre": "Somos um laboratório clínico que preza pela qualidade e confiança nos resultados. Nossa equipe está pronta para oferecer atendimento humanizado e preciso."
 }

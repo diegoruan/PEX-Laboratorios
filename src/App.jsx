@@ -37,10 +37,12 @@ export default function App() {
   }, [config]);
 
   return (
-    <>
+    <div className="d-flex flex-column min-vh-100">
       <Header />
-      <Router />
+      <div className="flex-fill">
+        <Router />
+      </div>
       <Footer />
-    </>
+    </div>
   );
 }

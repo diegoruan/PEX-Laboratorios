@@ -1,5 +1,6 @@
 import useConfig from "../hooks/useConfig";
 import AccordionItem from "../components/AccordionItem";
+import "./Instrucoes.css";
 
 export default function Instructions() {
   const config = useConfig();
@@ -7,10 +8,15 @@ export default function Instructions() {
 
   return (
     <div className="container mt-5">
-      <h2>Instruções de Coleta</h2>
+      <h3 className="titulo-custom">Instruções de Coleta</h3>
       <div className="accordion mt-3" id="accordionExample">
         {config.instrucoes.map((item, i) => (
-          <AccordionItem key={i} id={i} title={`Instrução ${i + 1}`} content={item} />
+          <AccordionItem 
+            key={i} 
+            id={i} 
+            title={item.titulo} 
+            content={item.descricao.replace(/\n/g, '<br/>')} 
+          />
         ))}
       </div>
     </div>

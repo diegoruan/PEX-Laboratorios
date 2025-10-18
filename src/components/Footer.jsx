@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer className="footer-custom py-3 mt-4 border-top">
-      <Link to="/politica-de-privacidade" className="text-decoration-custom small">
+      <Link to="/politica-de-privacidade" className="text-politica-custom small">
         Política de Privacidade
       </Link>
-      <span className="text-decoration-custom small">2025 © | Todos os direitos reservados</span>
+      <span className="text-politica-custom small">2025 © | Todos os direitos reservados</span>
     </footer>
   );
 }

@@ -47,9 +47,12 @@
       "descricao": "1 - Coletar PREFERENCIALMENTE a primeira urina da manhã, ou com pelo menos 2 horas da última vez que urinou.\n2 - Realizar higienização dos genitais, lavando com água e sabão e enxugando com toalha de papel ou gaze.\n3 - Desprezar no vaso sanitário o primeiro jato urinário (começo da urina).\n4 - Sem interromper a micção, urinar diretamente no frasco de coleta até completar meio frasco.\n5 - Desprezar o restante da urina no vaso sanitário. Fechar o frasco de coleta.\n6 - Não ter relações sexuais nas 24 horas que antecedem a coleta.\n7 - Coleta Feminina: Excetuando-se os casos de urgência, a urina deve ser coletada de 3-5 dias após o término do sangramento menstrual.\n8 - Entregar a urina imediatamente ao laboratório.\n\nObs: Para o exame de cultura de urina, caso tenha ingerido antibiótico recomenda-se aguardar 7 dias após o término do mesmo.\nEm alguns casos o médico pode solicitar a coleta do primeiro jato urinário, em caso de dúvida entre em contato conosco.\n\n<b>NÃO ESQUEÇA DE TRAZER:</b>\n- Documento de identidade com foto;\n- Carteira de convênio;\n- Nome dos medicamentos em uso;"
     }
   ],
+  "sobre": {
+    "titulo": "Quem Somos",
+    "conteudo": "<h3>Somos referência em análises clínicas de qualidade e confiança!</h3><p>O Laboratório Bioclínico Teste atua com excelência na área de análises clínicas, oferecendo atendimento humanizado, resultados rápidos e tecnologia de ponta para garantir precisão e segurança em cada exame realizado.</p><h3>Segurança e Confidencialidade!</h3><p>Contamos com processos automatizados e uma equipe de profissionais altamente qualificados, comprometidos com a saúde e bem-estar de nossos clientes. Nosso laboratório segue rigorosos programas de controle de qualidade interno e externo, assegurando resultados confiáveis, dentro dos padrões exigidos pela Sociedade Brasileira de Patologia Clínica (SBPC/ML).</p><p>Por meio de sistemas integrados e alinhados às diretrizes da LGPD, garantimos que os resultados sejam disponibilizados de forma ágil, segura e sigilosa.</p><h3>Atendimento com Comodidade!</h3><p>Além de nossa unidade central estrategicamente localizada, o Laboratório Bioclínico Teste oferece opções diferenciadas de atendimento, incluindo coletas domiciliares e empresariais, proporcionando maior conforto e praticidade a nossos clientes.</p><h3>Inovação e Compromisso!</h3><p>Estamos em constante atualização tecnológica e científica, sempre em busca de melhorias que tornem nossos serviços ainda mais eficazes e acessíveis.</p>"
+  },
   "unidade": {
     "endereco": "Rua das Flores, 123 - Centro",
     "telefone": "(11) 99999-9999"
-  },
-  "sobre": "Somos um laboratório clínico que preza pela qualidade e confiança nos resultados. Nossa equipe está pronta para oferecer atendimento humanizado e preciso."
+  }
 }

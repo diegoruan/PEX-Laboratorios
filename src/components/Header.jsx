@@ -36,8 +36,8 @@ export default function Header() {
             <li><Link className="nav-link" to="/">Home</Link></li>
             <li><Link className="nav-link" to="/instrucoes">Instruções</Link></li>
             <li><Link className="nav-link" to="/sobre">Quem Somos</Link></li>
-            <li><Link className="nav-link" to="/sobre">Unidades</Link></li>
-            <li><Link className="nav-link" to="/sobre">Contato</Link></li>
+            <li><Link className="nav-link" to="/unidades">Unidades</Link></li>
+            <li><Link className="nav-link" to="/contato">Contato</Link></li>
             <li className="ultimo-item"><Link className="nav-link-highlight" to="/sobre">Resultados</Link></li>
           </ul>
         </div>

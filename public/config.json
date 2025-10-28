@@ -55,8 +55,41 @@
     "titulo": "Política de Privacidade",
     "conteudo": "<h3>SEUS DADOS, NOSSO COMPROMISSO</h3><p>O Laboratório Bioclínico Teste tem como missão oferecer serviços de análises clínicas com qualidade, agilidade e confiabilidade, sempre priorizando uma experiência diferenciada para nossos clientes.</p><p>Durante o processo de atendimento e realização dos exames, é necessária a coleta e o tratamento de alguns dados pessoais. Essas informações são utilizadas exclusivamente para:</p><ul><li>Efetuar seu cadastro de identificação;</li><li>Executar exames específicos de forma precisa;</li><li>Atender às exigências legais e regulatórias do Ministério da Saúde.</li></ul><h3>Segurança e LGPD</h3><p>Todos os dados fornecidos são tratados com absoluta confidencialidade, em conformidade com a Lei Geral de Proteção de Dados Pessoais (LGPD – Lei nº 13.709/2018). Isso significa que seguimos princípios de transparência, finalidade, necessidade e segurança, garantindo que seus dados sejam utilizados apenas para a prestação adequada de nossos serviços e nunca para fins indevidos.</p><p>Além disso, contamos com sistemas protegidos por protocolos de segurança e monitoramento constantes, assegurando que seus resultados e informações pessoais cheguem até você de forma rápida, sigilosa e protegida.</p><p>Em nossa Política de Privacidade, você encontrará informações detalhadas sobre como seus dados são coletados, tratados, armazenados e protegidos.</p><p>Se ainda restarem dúvidas, disponibilizamos o e-mail: dadospessoais@bioclinicoteste.com.br, onde nosso Encarregado de Dados estará à disposição para garantir a proteção dos seus direitos e esclarecer qualquer questão relacionada à privacidade.</p>"
   },
-  "unidade": {
-    "endereco": "Rua das Flores, 123 - Centro",
-    "telefone": "(11) 99999-9999"
+
+  "unidades": [
+  {
+    "nome": "Joinville",
+    "endereco": "R. Teste da Silva, 123 - Centro",
+    "cidade": "Joinville - SC, 89209-123",
+    "horarios": [
+    {
+      "dias": "Segunda a Sexta",
+      "horario": "7:30 - 18:30"
+    },
+    {
+      "dias": "Sábado",
+      "horario": "7:30 - 10:00"
+    }
+  ],
+    "telefone": "(47) 3394-1234",
+    "imagem": "/images/unidades/joinville.jpg"
+  },
+  {
+    "nome": "Jaraguá do Sul",
+    "endereco": "R. Filho da Silva, 123 - Vila Nova",
+    "cidade": "Jaraguá do Sul - SC, 89261-123",
+    "horarios": [
+    {
+      "dias": "Segunda a Sexta",
+      "horario": "7:30 - 18:30"
+    },
+    {
+      "dias": "Sábado",
+      "horario": "7:30 - 10:00"
+    }
+  ],
+    "telefone": "(47) 3586-1234",
+    "imagem": "/images/unidades/jaragua.jpg"
   }
+]
 }

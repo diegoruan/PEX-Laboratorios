@@ -8,7 +8,7 @@
 }
 
 .accordion-button {
-  background-color: var(--cor-primaria) !important;
+  background-color: var(--cor-secundaria) !important;
   color: var(--texto-primaria) !important;
   font-weight: 500;
 }

@@ -7,6 +7,15 @@ import { useEffect } from "react";
 export default function App() {
   const config = useConfig();
 
+  const logoUrl = `${import.meta.env.AWS_ENDPOINT.replace(
+    "https://",
+    `https://${import.meta.env.AWS_BUCKET_ASSETS}.`
+  )}${config.logo}`;
+
+  const favicon = document.querySelector("link[rel='icon']");
+
+  favicon.href = logoUrl;
+
   useEffect(() => {
     if (config?.cores) {
       if (config.cores.primaria) {

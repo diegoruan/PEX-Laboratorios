@@ -7,15 +7,6 @@ import { useEffect } from "react";
 export default function App() {
   const config = useConfig();
 
-  const logoUrl = `${import.meta.env.AWS_ENDPOINT.replace(
-    "https://",
-    `https://${import.meta.env.AWS_BUCKET_ASSETS}.`
-  )}${config.logo}`;
-
-  const favicon = document.querySelector("link[rel='icon']");
-
-  favicon.href = logoUrl;
-
   useEffect(() => {
     if (config?.cores) {
       if (config.cores.primaria) {
@@ -42,6 +33,22 @@ export default function App() {
           config.cores.textoSecundaria
         );
       }
+    }
+
+    if (config?.logo) {
+      const logoUrl = `${import.meta.env.AWS_ENDPOINT.replace(
+        "https://",
+        `https://${import.meta.env.AWS_BUCKET_ASSETS}.`
+      )}${config.logo}`;
+
+      let favicon = document.querySelector("link[rel='icon']");
+      if (!favicon) {
+        favicon = document.createElement("link");
+        favicon.rel = "icon";
+        favicon.type = "image/png";
+        document.head.appendChild(favicon);
+      }
+      favicon.href = logoUrl;
     }
   }, [config]);
 

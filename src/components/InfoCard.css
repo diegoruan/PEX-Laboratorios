@@ -1,0 +1,30 @@
+.icon-home {
+  font-size: 1.4rem;
+  color: var(--texto-primaria);
+  margin-right: 8px;
+}
+
+.title-custom {
+  margin: 0;
+  font-weight: 600;
+  color: var(--texto-primaria);
+  display: flex;
+  align-items: center;
+}
+
+.text-custom {
+  color: var(--texto-primaria);
+}
+
+.text-decoration-custom {
+  text-decoration: underline;
+  color: var(--texto-primaria);
+  text-decoration-color: var(--texto-primaria);
+}
+
+.card-custom .p-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}

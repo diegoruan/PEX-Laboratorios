@@ -4,7 +4,7 @@
     text-align: center;
 }
 
-.politica-conteudo {
+.conteudo-custom {
     background-color: var(--cor-secundaria);
     color: var(--texto-primaria);
     line-height: 1.6;
@@ -13,7 +13,7 @@
     border-radius: 1rem;
 }
 
-.politica-conteudo h3 {
+.conteudo-custom h3 {
     color: var(--texto-primaria);
     margin-bottom: 1rem;
     font-size: 1.1rem;

@@ -43,7 +43,7 @@
 
 .nav-link-highlight {
     background-color: var(--cor-secundaria) !important;
-    color: var(--texto-secundaria) !important;
+    color: var(--texto-primaria) !important;
     border-radius: 16px;
     margin-left: 1rem;
     padding: 0.8rem 1.8rem !important;
@@ -86,7 +86,7 @@
     }
 
     .navbar-collapse {
-        background: var(--texto-secundaria);
+        background: var(--texto-primaria);
         margin-top: 1rem;
         border-radius: 8px;
         padding: 1rem;

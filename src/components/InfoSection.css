@@ -1,0 +1,31 @@
+.info-section {
+  background-color: var(--cor-secundaria);
+  align-content: center;
+  height: 16.375rem;
+}
+
+@media (min-width: 768px) {
+  .border-md-end {
+    border-right: 1px solid #999;
+  }
+}
+
+@media (max-width: 767px) {
+  .info-section {
+    background-color: white;
+    height: auto;
+  }
+
+  .info-section .col-md-3 {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .info-section .col-md-3:last-child {
+    border-bottom: none;
+  }
+
+  .card-custom {
+    background-color: var(--cor-primaria);
+    padding: 2rem;
+  }
+}

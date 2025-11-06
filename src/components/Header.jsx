@@ -38,7 +38,7 @@ export default function Header() {
             <li><Link className="nav-link" to="/sobre">Quem Somos</Link></li>
             <li><Link className="nav-link" to="/unidades">Unidades</Link></li>
             <li><Link className="nav-link" to="/contato">Contato</Link></li>
-            <li className="ultimo-item"><Link className="nav-link-highlight" to="/sobre">Resultados</Link></li>
+            <li className="ultimo-item"><Link className="nav-link-highlight" to="https://inovalab01hybrid.labclinic.com.br/auth/login">Resultados</Link></li>
           </ul>
         </div>
       </div>

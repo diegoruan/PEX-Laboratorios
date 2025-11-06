@@ -1,4 +1,5 @@
 import useConfig from "../hooks/useConfig";
+import UnidadeCard from "../components/UnidadeCard";
 import "./Unidades.css";
 
 export default function Unidades() {
@@ -6,57 +7,25 @@ export default function Unidades() {
   
   if (!config) return <div className="loading">Carregando...</div>;
 
-  const abrirWhatsApp = (telefone) => {
-    const numeroLimpo = telefone.replace(/\D/g, '');
-    window.open(`https://wa.me/55${numeroLimpo}`, '_blank');
-  };
+  const baseUrl = `${import.meta.env.AWS_ENDPOINT.replace(
+    "https://",
+    `https://${import.meta.env.AWS_BUCKET_ASSETS}.`
+  )}`;
 
   return (
     <div className="unidades-container">
       <div className="unidades-header">
-        <h1 className="unidades-titulo">Encontre nossas unidades</h1>
+        <h1 className="unidades-titulo">{config.unidades.titulo}</h1>
       </div>
 
       <div className="unidades-grid">
-        {config.unidades && config.unidades.map((unidade) => (
-          <div key={unidade.id} className="unidade-card">
-            <div className="unidade-imagem">
-              <img src={unidade.imagem} alt={`Unidade ${unidade.nome}`} />
-            </div>
-            
-            <div className="unidade-info">
-              <h2 className="unidade-nome">{unidade.nome}</h2>
-              
-              <div className="unidade-detalhes">
-                <div className="detalhe-item">
-                  <div>
-                    <p className="detalhe-texto">{unidade.endereco}</p>
-                    <p className="detalhe-texto-secundario">{unidade.cidade}</p>
-                  </div>
-                </div>
-
-                <div className="detalhe-horarios">
-                  <div className="horarios-lista">
-                    {unidade.horarios.map((h, idx) => (
-                      <div key={idx} className="horario-item">
-                        <span className="horario-dias">{h.dias}</span>
-                        <span className="horario-tempo">{h.horario}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-
-              <button 
-                className="whatsapp-button"
-                onClick={() => abrirWhatsApp(unidade.telefone)}
-                style={{ backgroundColor: config.cores.primaria }}
-              >
-                <span className="whatsapp-icon">📞</span>
-                {unidade.telefone}
-              </button>
-            </div>
-          </div>
+        {config.unidades.cards && config.unidades.cards.map((unidade) => (
+          <UnidadeCard 
+            key={unidade.id}
+            unidade={unidade}
+            corPrimaria={config.cores.primaria}
+            baseUrl={baseUrl}
+          />
         ))}
       </div>
     </div>

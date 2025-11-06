@@ -6,7 +6,7 @@ export default function InfoCard({ icon, title, description, link, linkText }) {
       <div className="p-4">
         <div className="d-flex align-items-center mb-2">
           <i className={`fa-solid ${icon} icon-home`}></i>
-          <h5 className="fw-semibold title-custom">{title}</h5>
+          <h2 className="fw-semibold title-custom">{title}</h2>
         </div>
         <p className="small text-custom">{description}</p>
         <a href={link} className="small text-decoration-custom">

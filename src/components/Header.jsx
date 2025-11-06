@@ -26,6 +26,9 @@ export default function Header() {
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Abrir menu de navegação"
           >
             <span className="fas fa-bars"></span>
           </button>

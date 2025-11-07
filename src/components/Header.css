@@ -86,7 +86,7 @@
     }
 
     .navbar-collapse {
-        background: var(--texto-primaria);
+        background: var(--cor-primaria);
         margin-top: 1rem;
         border-radius: 8px;
         padding: 1rem;
